@@ -24,3 +24,20 @@ CONFIG_COREMARK_NUMBER_OF_THREADS=6
 ### Video Support
 CONFIG_PACKAGE_kmod-drm-rockchip=y
 CONFIG_PACKAGE_kmod-drm-panfrost=y
+
+### Wifi
+CONFIG_PACKAGE_iwlwifi-firmware-ax200=y
+CONFIG_PACKAGE_iwlwifi-firmware-ax210=y
+CONFIG_PACKAGE_rtl8822be-firmware=y
+CONFIG_PACKAGE_rtl8822ce-firmware=y
+CONFIG_PACKAGE_mt76x2-firmware=y
+CONFIG_PACKAGE_mt792x-firmware=y
+CONFIG_PACKAGE_wireless-regdb=y
+CONFIG_PACKAGE_wpad-mini=y
+CONFIG_PACKAGE_wsdd2=y
+CONFIG_PACKAGE_wwan=y
+
+### util
+CONFIG_PACKAGE_pciids=y
+CONFIG_PACKAGE_pciutils=y
+
